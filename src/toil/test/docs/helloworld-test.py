@@ -11,10 +11,10 @@ from toil.test import ToilTest
 # import toil.test.docs.scripts.helloWorld
 
 class ToilWdlIntegrationTest(ToilTest):
-    """A set of test cases for toilwdl.py"""
+    # a test for helloworld.py
 
     def setUp(self):
-        self.program = os.path.abspath("scripts/helloWorld.py")
+        self.program = os.path.abspath("scripts/helloworld.py")
         pass
 
     def tearDown(self):
